@@ -5,7 +5,6 @@ def find_depth():
     for index, num in enumerate(nums):
         currentnum = num
         nextnum = nums[(index + 1) % len(nums)]
-        print(4 % len(nums))
         if currentnum < nextnum:
             counter += 1
 
